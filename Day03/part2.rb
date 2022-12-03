@@ -10,7 +10,7 @@ def findMatchingChar(a, b, c)
 end
 
 (0...lines.length).step(3) do |i|
-    badge = findMatchingChar(lines[i], lines[i + 1], lines[i + 2])
+    badge = findMatchingChar(*lines[i..i + 2])
     total += /[[:upper:]]/.match(badge) ? badge.ord - 38 : badge.ord - 96
 end
 
