@@ -22,4 +22,4 @@ end
     total += /[[:upper:]]/.match(badge) ? badge.ord - 38 : badge.ord - 96
 end
 
-puts total
+puts total #2780

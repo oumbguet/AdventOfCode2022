@@ -38,4 +38,4 @@ lines.each do |line|
     total += find_score(scores, bonuses, line[0], line[2])
 end
 
-puts total
+puts total #13433

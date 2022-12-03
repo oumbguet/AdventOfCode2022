@@ -22,4 +22,4 @@ lines.each do |line|
     total += countScore(line)
 end
 
-puts total
+puts total #7568

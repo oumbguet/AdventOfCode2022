@@ -16,4 +16,4 @@ end
 
 arr << total
 
-puts arr.max()
+puts arr.max() #69289

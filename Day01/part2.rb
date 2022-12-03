@@ -16,4 +16,4 @@ end
 
 arr << total
 
-puts arr.sort()[-3..-1].sum()
+puts arr.sort()[-3..-1].sum() #205615

@@ -1,4 +1,4 @@
-file = File.open("test_input", "r")
+file = File.open("input", "r")
 lines = file.readlines.map(&:chomp)
 
 total = 0
@@ -31,4 +31,4 @@ lines.each do |line|
     total += scores[line[0]][line[2]] + bonuses[line[2]]
 end
 
-puts total
+puts total #13484
